@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_login"
+    android:gravity="center"
+    tools:context="com.example.manilal.heart.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You are a "
+        android:textSize="32dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/patient_login_homepage"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:textColor="@color/linkColor"
+        />
+
+    <TextView
+        android:id="@+id/doctor_login_homepage"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:textColor="@color/linkColor"/>
+
+</LinearLayout>

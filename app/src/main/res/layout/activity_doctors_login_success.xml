@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.manilal.heart.DoctorsLoginSuccess">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textColor="#000000" />
+
+</LinearLayout>
